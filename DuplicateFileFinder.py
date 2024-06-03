@@ -69,7 +69,9 @@ def main_menu():
         if duplicates:
             print(colored("Duplicate files found:", 'blue'))
             for duplicate, original in duplicates:
-                print(colored(f"{duplicate} is a duplicate of {original}", 'yellow'))
+                print(colored(f"{duplicate}", 'red'))
+                print(colored(f"is a duplicate of ", 'red'))
+                print(colored(f"{original}", 'yellow'))
             
             delete_choice = input(colored("Do you want to delete duplicate files? (yes/no): ", 'cyan')).strip().lower()
             if delete_choice == 'yes':
