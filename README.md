@@ -13,20 +13,20 @@ A Python script to find and handle duplicate files in a directory.
 1. Clone the repository:
 
    ```
-   git clone https://github.com/Avishka-Udara/duplicate-file-finder.git
+   git clone https://github.com/Avishka-Udara/DuplicateFileFinder.git
     ```
 
 2. Navigate to the project directory:
 
 
     ```
-    cd duplicate-file-finder
+    cd DuplicateFileFinder
     ```
 
 3. Run the script:
 
     ```
-    python menu_find_duplicates.py
+    python DuplicateFileFinder.py
     ```
     
     Follow the on-screen menu to scan for duplicate files and optionally delete them.
