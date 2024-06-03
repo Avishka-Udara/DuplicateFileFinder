@@ -39,9 +39,9 @@ A Python script to find and handle duplicate files in a directory.
 
 You can install the required dependencies using pip:
 
-    ```
+
     pip install tqdm termcolor hashlib
-    ```
+
 
     
 ## Contributing
